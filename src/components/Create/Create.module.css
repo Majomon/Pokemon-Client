@@ -1,0 +1,200 @@
+.containerCreate {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.imgCreateFondo {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+
+.info {
+  width: 20%;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.container {
+  width: 95%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.form {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.formContainer {
+  width: 60%;
+  height: 95vh;
+  border: 1px solid rgb(230, 219, 219);
+  border-radius: 10px;
+  background-color: white;
+  margin: 1rem;
+  text-align: center;
+}
+
+.containerImgForm {
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(244, 241, 241);
+  border-radius: 10px 10px 0 0;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid rgb(237, 231, 231);
+}
+
+.imgForm {
+  height: 3rem;
+}
+
+.navLinkHome {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.buttonReturn {
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 1rem 0 0 1rem;
+  background-color: #fecb09;
+
+  cursor: pointer;
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.76);
+  -webkit-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.76);
+}
+
+.containerInfoForm {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.box {
+  width: 20%;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 1.2rem;
+  text-align: center;
+}
+
+.box label {
+  font-weight: bold;
+}
+
+.box input {
+  outline: none;
+}
+
+.box span {
+  color: rgb(224, 9, 9);
+}
+
+.inputForm {
+  border: 1px solid rgb(170, 163, 163);
+  border-radius: 5px;
+  height: 1.5rem;
+  text-align: center;
+}
+
+.containerTypes {
+  width: 100%;
+}
+
+.h2Types{
+  padding: 0;
+  margin: 0;
+}
+
+.pTypes {
+  height: 1rem;
+  width: 100%;
+  background-color: white;
+  color: rgb(224, 9, 9);
+}
+
+.listTypes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.boxType {
+  width: 55px;
+  margin: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.boxType input {
+  display: none;
+}
+
+.typeName {
+  padding: 0;
+  margin: 0;
+}
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: grayscale(100%) opacity(50%);
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+
+.checkedCircle {
+  /* Estilos para el círculo cuando el checkbox está marcado */
+  filter: grayscale(0%) opacity(95%);
+}
+
+.btnCreate {
+  align-items: center;
+  align-self: center;
+  font-size: 1rem;
+  width: 200px;
+  height: 100px;
+
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  border: none;
+  border-radius: 8px;
+  background-color: #fecb09;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+}
+
+.btnCreate:disabled {
+  background-color: rgb(165, 152, 152);
+  cursor: default;
+  color: aliceblue;
+  transition: 1s ease-in-out;
+  width: 400px;
+  height: 100px;
+}

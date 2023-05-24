@@ -1,0 +1,48 @@
+.imgFooter {
+  width: 50px;
+  height: 50px;
+  padding: 0.5rem 0;
+  transition: transform 0.3s ease;
+}
+
+.imgFooter:hover {
+  animation: shakeAnimation 0.3s ease infinite;
+}
+
+@keyframes shakeAnimation {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(1px, -1px);
+  }
+  50% {
+    transform: translate(-1px, 1px);
+  }
+  75% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.containerFooter {
+  width: 100%;
+  background: rgb(55, 48, 107);
+  background: linear-gradient(
+    96deg,
+    rgba(55, 48, 107, 1) 0%,
+    rgba(181, 231, 228, 1) 0%,
+    rgba(255, 240, 0, 1) 100%
+  );
+  border-top: 1px solid black;
+}
+
+.box {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  flex: 1;
+}

@@ -1,0 +1,19 @@
+.sortfilter{
+    width: 50%;
+    height: fit-content;
+    padding: .3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.select{
+    margin-right: 2rem;
+}
+
+.activePage {
+    background-color: yellow;
+    border: 1px solid black;
+    font-size: 18px;
+}

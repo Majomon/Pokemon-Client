@@ -1,0 +1,122 @@
+.navlink {
+  text-decoration: none;
+}
+
+.container {
+  opacity: .9;
+}
+
+.containerCard {
+  position: relative;
+  width: 250px;
+  height: 380px;
+  margin: 0.5rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  background-color: white;
+}
+
+.name {
+  padding: 0;
+  margin: 0.25rem 0;
+}
+.navLink {
+  display: flex;
+  justify-content: center;
+}
+.img {
+  height: 130px;
+  width: 75%;
+  border-radius: 2px;
+}
+
+.types {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+/* .types img {
+  
+} */
+.containerAbout {
+  width: 80%;
+  text-align: center;
+  border-top: 1px solid rgb(202, 194, 194);
+}
+
+.titleAbout {
+  padding: 0.1rem;
+  margin: 0.1rem;
+}
+
+.infoAbout {
+  width: 70%;
+  display: flex;
+  margin: 0.5rem auto;
+  justify-content: space-around;
+}
+
+.box span {
+  font-size: 10px;
+  font-weight: bold;
+}
+.imgAbout {
+  width: 18px;
+  margin: 0 0.3rem;
+}
+
+.detalle {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+}
+
+/* Favoritos */
+
+.imgFav {
+  all: unset;
+  font-size: 35px;
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+}
+
+.favInactive {
+  animation: noHeartbeat 5s infinite;
+}
+
+.favActive {
+  animation: heartbeat 0.5s infinite;
+}
+
+/* Heart.module.css */
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes noHeartbeat {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}

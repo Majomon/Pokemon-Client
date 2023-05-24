@@ -1,0 +1,33 @@
+.containerHome {
+  position: relative;
+  background: rgb(55, 48, 107);
+  background: linear-gradient(
+    309deg,
+    rgba(55, 48, 107, 1) 0%,
+    rgba(255, 240, 0, 1) 0%,
+    rgba(249, 239, 18, 1) 50%,
+    rgba(181, 231, 228, 1) 50%,
+    rgba(186, 232, 211, 1) 100%,
+    rgba(234, 237, 64, 1) 100%
+  );
+}
+
+.sortfilter {
+  width: 50%;
+  height: fit-content;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.select {
+  margin-right: 2rem;
+}
+
+.activePage {
+  background-color: #b6e7e2;
+  border: 1px solid black;
+  font-size: 18px;
+}
