@@ -4,9 +4,7 @@ import FilterFail from "../FailSearch/FailSearch";
 import style from "./Cards.module.css";
 
 function Cards({ currentCards, pagination }) {
-  /*   const allPokemons = useSelector((state) => state.pokemons);
-  const typePokemons = useSelector((state) => state.types);
- */
+
   const loading = currentCards.length === 0 || pagination.length === 0;
 
   return (
